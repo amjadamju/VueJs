@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Js</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div class="navbar"></div>
+    <div id="app">
+       <h1>{{ product }}</h1> 
+       <p>{{ description }}</p>
+       <img v-bind:src="image" alt="image" class="image-1">
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
